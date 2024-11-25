@@ -8,7 +8,7 @@ function par(name,delay){
 }
 
 console.log("start print");
-
+//Parallel
 Promise.all([
   par("Gayatri", 1000),
   par("Chandu", 2000),
@@ -17,7 +17,7 @@ Promise.all([
   console.log("All names printed");
 });
 
-
+//Sequnce
 console.log("start print");
 
 par("Gayatri", 1000)
